@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elle Smoothies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,500;10..48,600;10..48,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gochi+Hand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/logo.png" alt="elle" width="125px">
+                </div>
+
+                <nav>
+                    <ul id="menu-items">
+                        <li>
+                            <div class="nav-btn">
+                                <a href="index.html">Home</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-btn">
+                                <a href="#">Products</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-btn">
+                                <a href="#">About</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-btn">
+                                <a href="#">Account</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </nav>
+                <a href="" class="nav-btn"><img src="image/cart.png" alt="" width="30px" height="30px"></a>
+                <img src="image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+        <div class="row">
+
+                <img src="image/logo.png" alt="">
+                <h1 style="font-family: 'Gochi Hand', cursive;">smoothies</h1>
+        </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="image/logo.png" alt="elle">
+                    <p>Satisfy your self with a NICE, COOL, REFRESHING glass of one of Elle's Smoothies <br>we provide
+                        both heathy and delicious options to satisfiy fout tast</p>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Usful <b style="font-family: 'Gochi Hand', cursive;">Links</b></h3>
+                    <ul>
+                        <li>
+                            <p class="left">Coupons</p>
+                        </li>
+                        <li>
+                            <p class="right">Blog Post</p>
+                        </li>
+                        <li>
+                            <p class="left">Return Policy</p>
+                        </li>
+                        <li>
+                            <p class="right">Join Affiliate</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Contact <b style="font-family: 'Gochi Hand', cursive;">Us</b></h3>
+                    <form action="">
+                        <input class="form-1" type="email" placeholder="Your E-mail...">
+                        <textarea name="form-2" id="" cols="30" rows="5" placeholder="Your Message"
+                            class="form-2"></textarea>
+                        <input type="submit" name="" id="" class="submit">
+                    </form>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Royce Akhabhoa</p>
+        </div>
+    </div>
+
+
+
+    <!------js for toggle menu------>
+
+    <script>
+        var MenuItems = document.getElementById("menu-items");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
