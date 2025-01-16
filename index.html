@@ -1,361 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elle Smoothies</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,500;10..48,600;10..48,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gochi+Hand&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,500;10..48,600;10..48,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="image/logo.png" alt="elle" width="125px">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="image/logo.png" alt="elle" width="125px" />
+          </div>
+
+          <nav>
+            <ul id="menu-items">
+              <li>
+                <div class="nav-btn">
+                  <a href="#">Home</a>
                 </div>
-
-                <nav>
-                    <ul id="menu-items">
-                        <li>
-                            <div class="nav-btn">
-                                <a href="#">Home</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-btn">
-                                <a href="products.html">Products</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-btn">
-                                <a href="about.html">About</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-btn">
-                                <a href="#">Account</a>
-                            </div>
-                        </li>
-
-                    </ul>
-                </nav>
-                <a href="" class="nav-btn"><img src="image/cart.png" alt="" width="30px" height="30px"></a>
-                <img src="image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
-            </div>
-        </div>
-
-        <!-----------Scroll header------------->
-
-        <div class="scroll-header">
-            <div class="cont-2">
-                <div class="col-2">
-                    <div class="row">
-                        <img src="image/logo.png" alt="" width="200px">
-                        <h1 style="margin-top: 10px; font-family: 'Gochi Hand', cursive;">Smoothies</h1>
-                    </div>
-                    <br>
-                    <div class="row-2">
-                        <h1>Desire meets taste!</h1>
-                        <br>
-                        <p>
-                            Satisfy your self with a <b
-                                style="font-family: 'Gochi Hand', cursive; font-size: 30px; margin-right: 5px;">NICE</b>,
-                            <b style="font-family: 'Gochi Hand', cursive; font-size: 30px; margin-right: 5px;">COOL</b>,
-                            <b
-                                style="font-family: 'Gochi Hand', cursive; font-size: 30px; margin-right: 5px;">REFRESHING</b>
-                            glass of one of Elle's
-                            Smoothies <br><br>
-                            <b
-                                style="font-family: 'Gochi Hand', cursive; font-size: 30px; margin-right: 5px;">order</b><b>
-                                now!</b>
-                        </p>
-                    </div>
-                    <a href="" class="btn">More &#8594</a>
+              </li>
+              <li>
+                <div class="nav-btn">
+                  <a href="products.html">Products</a>
                 </div>
-            </div>
-            <div class="banner"></div>
+              </li>
+              <li>
+                <div class="nav-btn">
+                  <a href="about.html">About</a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-btn">
+                  <a href="#">Account</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <a href="" class="nav-btn"
+            ><img src="image/cart.png" alt="" width="30px" height="30px"
+          /></a>
+          <img
+            src="image/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
         </div>
+      </div>
+
+      <!-----------Scroll header------------->
+
+      <div class="scroll-header">
+        <div class="cont-2">
+          <div class="col-2">
+            <div class="row">
+              <img src="image/logo.png" alt="" width="200px" />
+              <h1 style="margin-top: 10px; font-family: 'Gochi Hand', cursive">
+                Smoothies
+              </h1>
+            </div>
+            <br />
+            <div class="row-2">
+              <h1>Desire meets taste!</h1>
+              <br />
+              <p>
+                Satisfy your self with a
+                <b
+                  style="
+                    font-family: 'Gochi Hand', cursive;
+                    font-size: 30px;
+                    margin-right: 5px;
+                  "
+                  >NICE</b
+                >,
+                <b
+                  style="
+                    font-family: 'Gochi Hand', cursive;
+                    font-size: 30px;
+                    margin-right: 5px;
+                  "
+                  >COOL</b
+                >,
+                <b
+                  style="
+                    font-family: 'Gochi Hand', cursive;
+                    font-size: 30px;
+                    margin-right: 5px;
+                  "
+                  >REFRESHING</b
+                >
+                glass of one of Elle's Smoothies <br /><br />
+                <b
+                  style="
+                    font-family: 'Gochi Hand', cursive;
+                    font-size: 30px;
+                    margin-right: 5px;
+                  "
+                  >order</b
+                ><b> now!</b>
+              </p>
+            </div>
+            <a href="" class="btn">More &#8594;</a>
+          </div>
+        </div>
+        <div class="banner"></div>
+      </div>
     </div>
     <!------------popular products------------->
     <div class="popular">
-        <div class="popular-container">
-            <h3 class="title" style="font-size: 40px;"><b
-                    style="font-family: 'Gochi Hand', cursive; margin-right: 5px;">Popular
-                </b>Products</h3>
-            <div class="row-3">
-                <div class="col-3">
-                    <img class="left" src="image/pexels-polina-tankilevitch-4443512.jpg" alt="">
-                    <p>dragon Fruit Punch</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive; font-size: 33px;">
-                            20.00</b></p>
-                </div>
-                <div class="col-3">
-                    <img class="center" src="image/pexels-polina-tankilevitch-4443513.jpg" alt="">
-                    <p>Tangerin</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p style="color: #464545;"> $ <b style="font-family: 'Gochi Hand', cursive; font-size: 33px;">
-                            20.00</b></p>
-                </div>
-                <div class="col-3">
-                    <img class="right" src="image/pexels-polina-tankilevitch-4443515.jpg" alt="">
-                    <p> Orange</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive; font-size: 33px;">
-                            20.00</b></p>
-                </div>
+      <div class="popular-container">
+        <h3 class="title" style="font-size: 40px">
+          <b style="font-family: 'Gochi Hand', cursive; margin-right: 5px"
+            >Popular </b
+          >Products
+        </h3>
+        <div class="row-3">
+          <div class="col-3">
+            <img
+              class="left"
+              src="image/pexels-polina-tankilevitch-4443512.jpg"
+              alt=""
+            />
+            <p>dragon Fruit Punch</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
             </div>
+            <p style="color: #464545">
+              $
+              <b style="font-family: 'Gochi Hand', cursive; font-size: 33px">
+                20.00</b
+              >
+            </p>
+          </div>
+          <div class="col-3">
+            <img
+              class="center"
+              src="image/pexels-polina-tankilevitch-4443513.jpg"
+              alt=""
+            />
+            <p>Tangerin</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p style="color: #464545">
+              $
+              <b style="font-family: 'Gochi Hand', cursive; font-size: 33px">
+                20.00</b
+              >
+            </p>
+          </div>
+          <div class="col-3">
+            <img
+              class="right"
+              src="image/pexels-polina-tankilevitch-4443515.jpg"
+              alt=""
+            />
+            <p>Orange</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p style="color: #464545">
+              $
+              <b style="font-family: 'Gochi Hand', cursive; font-size: 33px">
+                20.00</b
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!---------our products------------>
     <div class="small-container">
-        <div class="row row-5">
-            <h3 style="font-size: 40px;"><b style="font-family: 'Gochi Hand', cursive;">Our</b> Products
-            </h3>
-            <h3 class="more-btn"><a href="">View More</a></h3>
+      <div class="row row-5">
+        <h3 style="font-size: 40px">
+          <b style="font-family: 'Gochi Hand', cursive">Our</b> Products
+        </h3>
+        <h3 class="more-btn"><a href="">View More</a></h3>
+      </div>
+      <div class="row-4">
+        <div class="col-4">
+          <img src="image/pexels-alisha-mishra-1346347.jpg" alt="" />
+          <p>healthy</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p style="color: #464545">
+            $ <b style="font-family: 'Gochi Hand', cursive"> 20.00</b>
+          </p>
         </div>
-        <div class="row-4">
-            <div class="col-4">
-                <img src="image/pexels-alisha-mishra-1346347.jpg" alt="">
-                <p> healthy</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive;">
-                        20.00</b></p>
-            </div>
-            <div class="col-4">
-                <img src="image/pexels-bruno-scramgnon-1337825.jpg" alt="">
-                <p> healthy</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive;">
-                        20.00</b></p>
-            </div>
-            <div class="col-4">
-                <img src="image/pexels-annelies-brouw-3028139.jpg" alt="">
-                <p> healthy</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive;">
-                        20.00</b></p>
-            </div>
-            <div class="col-4">
-                <img src="image/pexels-valeria-boltneva-1251210.jpg" alt="">
-                <p> healthy</p>
-                <div class="rating comm">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p style="color: #464545;">$ <b style="font-family: 'Gochi Hand', cursive;">
-                        20.00</b></p>
-            </div>
-
+        <div class="col-4">
+          <img src="image/pexels-bruno-scramgnon-1337825.jpg" alt="" />
+          <p>healthy</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p style="color: #464545">
+            $ <b style="font-family: 'Gochi Hand', cursive"> 20.00</b>
+          </p>
         </div>
+        <div class="col-4">
+          <img src="image/pexels-annelies-brouw-3028139.jpg" alt="" />
+          <p>healthy</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p style="color: #464545">
+            $ <b style="font-family: 'Gochi Hand', cursive"> 20.00</b>
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="image/pexels-valeria-boltneva-1251210.jpg" alt="" />
+          <p>healthy</p>
+          <div class="rating comm">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p style="color: #464545">
+            $ <b style="font-family: 'Gochi Hand', cursive"> 20.00</b>
+          </p>
+        </div>
+      </div>
     </div>
-    </div>
-
-
 
     <!-- comments -->
 
-    <div class="comments">
-        <div class="title-3">
-            <h2><b style="font-family: 'Gochi Hand', cursive;">Some</b> Comments</h2>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                    perspiciatis quasi voluptatum,
-                    velit,
-                    dolore dolores inventore aperiam cumque ratione excepturi necessitatibus cupiditate nihil eos
-                    voluptates
-                    porro sit at praesentium natus.
-                </h3>
-                <div class="profile">
-                    <img src="image/gettyimages-1061959920.jpg" alt="">
-                    <div class="name-rate">
-                        <p>
-                            The Rock
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        </p>
-                    </div> <br>
-                    <i class="fa fa-quote-right quote"></i>
-                </div>
-            </div>
-            <div class="col-6">
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                    perspiciatis quasi voluptatum,
-                    velit,
-                    dolore dolores inventore aperiam cumque ratione excepturi necessitatibus cupiditate nihil eos
-                    voluptates
-                    porro sit at praesentium natus.
-                </h3>
-                <div class="profile">
-                    <img src="image/gettyimages-1061959920.jpg" alt="">
-                    <div class="name-rate">
-                        <p>
-                            The Rock
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        </p>
-                    </div> <br>
-                    <i class="fa fa-quote-right quote"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+    <!-- <div class="comments">
+      <div class="title-3">
+        <h2><b style="font-family: 'Gochi Hand', cursive">Some</b> Comments</h2>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            perspiciatis quasi voluptatum, velit, dolore dolores inventore
+            aperiam cumque ratione excepturi necessitatibus cupiditate nihil eos
+            voluptates porro sit at praesentium natus.
+          </h3>
+          <div class="profile">
+            <div class="name-rate">
+              <img src="image/gettyimages-1061959920.jpg" alt="" />
 
+              The Rock
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <br />
+            <div>
+              <i class="fa fa-quote-right quote"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            perspiciatis quasi voluptatum, velit, dolore dolores inventore
+            aperiam cumque ratione excepturi necessitatibus cupiditate nihil eos
+            voluptates porro sit at praesentium natus.
+          </h3>
+          <div class="profile">
+            <img src="image/gettyimages-1061959920.jpg" alt="" />
+            <div class="name-rate">
+              The Rock
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <br />
+            <i class="fa fa-quote-right quote"></i>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <div class="title-3">
+      <h2><b style="font-family: 'Gochi Hand', cursive">Some</b> Comments</h2>
+    </div>
+    <div class="comment-container">
+      <div class="col-6">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
+          labore eaque, repudiandae nam mollitia dolores corporis facilis fugit
+          praesentium libero dolore quae maiores officiis at culpa soluta
+          veritatis animi consequuntur!
+        </h3>
+        <span class="profile-area">
+          <div class="profile-name">
+            <img src="image/gettyimages-1061959920.jpg" alt="" />
+            <div class="name-rate">
+              <div class="name">The Rock</div>
+              <div class="rate">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="quotes">
+            <i class="fa fa-quote-right quote"></i>
+          </div>
+        </span>
+      </div>
+      <div class="col-6">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
+          labore eaque, repudiandae nam mollitia dolores corporis facilis fugit
+          praesentium libero dolore quae maiores officiis at culpa soluta
+          veritatis animi consequuntur!
+        </h3>
+        <span class="profile-area">
+          <div class="profile-name">
+            <img src="image/gettyimages-1061959920.jpg" alt="" />
+            <div class="name-rate">
+              <div class="name">The Rock</div>
+              <div class="rate">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="quotes">
+            <i class="fa fa-quote-right quote"></i>
+          </div>
+        </span>
+      </div>
+    </div>
 
     <!-- get our app -->
     <div class="container">
-        <div class="row" style="justify-content: space-between;">
-            <div class="col">
-                <div class="title-2">
-                    <h1>Get our <b style="font-family: 'Gochi Hand', cursive;">app</b></h1>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ab sit distinctio error illum earum
-                    hic ea cumque. Architecto doloremque officiis similique quia accusantium repellat ut odio alias esse
-                    molestiae.</h3>
+      <div class="row" style="justify-content: space-between">
+        <div class="col">
+          <div class="title-2">
+            <h1>
+              Get our <b style="font-family: 'Gochi Hand', cursive">app</b>
+            </h1>
+          </div>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ab
+            sit distinctio error illum earum hic ea cumque. Architecto
+            doloremque officiis similique quia accusantium repellat ut odio
+            alias esse molestiae.
+          </h3>
 
-                <img src="image/app-store.png" alt="" width="180px">
-                <img src="image/play-store.png" alt="" width="180px">
-            </div>
-
-            <div class="col-phone">
-                <img src="image/pngtree-mobile-phone-png-smartphone-camera-mockup-png-image_6067590.png" alt="">
-            </div>
+          <img src="image/app-store.png" alt="" width="180px" />
+          <img src="image/play-store.png" alt="" width="180px" />
         </div>
-    </div>
 
+        <div class="col-phone">
+          <img
+            src="image/pngtree-mobile-phone-png-smartphone-camera-mockup-png-image_6067590.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- footer -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <img src="image/logo.png" alt="elle">
-                    <p>Satisfy your self with a NICE, COOL, REFRESHING glass of one of Elle's Smoothies <br>we provide
-                        both heathy and delicious options to satisfiy fout tast</p>
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-facebook"></i>
-                </div>
-                <div class="footer-col-2">
-                    <h3>Usful <b style="font-family: 'Gochi Hand', cursive;">Links</b></h3>
-                    <ul>
-                        <li>
-                            <p class="left">Coupons</p>
-                        </li>
-                        <li>
-                            <p class="right">Blog Post</p>
-                        </li>
-                        <li>
-                            <p class="left">Return Policy</p>
-                        </li>
-                        <li>
-                            <p class="right">Join Affiliate</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Contact <b style="font-family: 'Gochi Hand', cursive;">Us</b></h3>
-                    <form action="">
-                        <input class="form-1" type="email" placeholder="Your E-mail...">
-                        <textarea name="form-2" id="" cols="30" rows="5" placeholder="Your Message"
-                            class="form-2"></textarea>
-                        <input type="submit" name="" id="" class="submit">
-                    </form>
-                </div>
-
-            </div>
-            <hr>
-            <p class="copyright">Copyright 2023 - Royce Akhabhoa</p>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <img src="image/logo.png" alt="elle" />
+            <p>
+              Satisfy your self with a NICE, COOL, REFRESHING glass of one of
+              Elle's Smoothies <br />we provide both heathy and delicious
+              options to satisfiy fout tast
+            </p>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+          </div>
+          <div class="footer-col-2">
+            <h3>
+              Usful <b style="font-family: 'Gochi Hand', cursive">Links</b>
+            </h3>
+            <ul>
+              <li>
+                <p class="left">Coupons</p>
+              </li>
+              <li>
+                <p class="right">Blog Post</p>
+              </li>
+              <li>
+                <p class="left">Return Policy</p>
+              </li>
+              <li>
+                <p class="right">Join Affiliate</p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col-3">
+            <h3>
+              Contact <b style="font-family: 'Gochi Hand', cursive">Us</b>
+            </h3>
+            <form action="">
+              <input class="form-1" type="email" placeholder="Your E-mail..." />
+              <textarea
+                name="form-2"
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Your Message"
+                class="form-2"
+              ></textarea>
+              <input type="submit" name="" id="" class="submit" />
+            </form>
+          </div>
         </div>
+        <hr />
+        <p class="copyright">Copyright 2023 - Royce Akhabhoa</p>
+      </div>
     </div>
-
-
 
     <!------js for toggle menu------>
 
     <script>
-        var MenuItems = document.getElementById("menu-items");
+      var MenuItems = document.getElementById("menu-items");
 
-        MenuItems.style.maxHeight = "0px";
+      MenuItems.style.maxHeight = "0px";
 
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px"
-            }
-            else {
-                MenuItems.style.maxHeight = "0px"
-            }
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
         }
+      }
     </script>
-</body>
-
+  </body>
 </html>
