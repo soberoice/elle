@@ -580,7 +580,7 @@ a {
 .form-1,
 select {
   width: 70%;
-  padding: 15px 5px;
+  padding: 15px 15px;
   margin-bottom: 20px;
   font-family: "Gochi Hand", cursive;
   font-size: 20px;
@@ -593,13 +593,16 @@ select {
   width: 70%;
   border: none;
   resize: none;
-  padding: 15px 5px;
+  padding: 15px 15px;
   font-size: 20px;
   border-radius: 10px;
   overflow-y: scroll;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.699);
 }
-
+.form-1,
+.form-2:focus {
+  outline: none;
+}
 input,
 select {
   border: none;
@@ -686,6 +689,15 @@ select {
   .col {
     width: 100%;
   }
+
+  .col-6 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .col-6 h3 {
+    font-size: 18px;
+  }
 }
 
 /*--------media query for menu less then 600 screen------------*/
@@ -711,11 +723,11 @@ select {
 
   .col-6 {
     width: 100%;
-    padding: 15px;
+    padding: 20px;
   }
 
   .col-6 h3 {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .col-2,
